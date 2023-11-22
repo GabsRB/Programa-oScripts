@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Exibição de Texto</title>
+</head>
+<body>
+<!-- O elemento onde o texto será exibido -->
+<div id="msg"></div>
+<script>
+    function exibirTextoNoElemento(texto) {
+    // Obtém o elemento com o ID "msg"
+    var elementoMsg = document.getElementById("msg");
+
+    // Verifica se o elemento existe antes de tentar modificá-lo
+    if (elementoMsg) {
+        // Define o texto do elemento como o texto fornecido
+        elementoMsg.innerText = texto;
+    } else {
+        console.error("Elemento 'msg' não encontrado.");
+    }
+}
+
+// Exemplo de uso da função
+var textoExemplo = "Olá, mundo!";
+exibirTextoNoElemento(textoExemplo);
+</script>
+</body>
+</html>
