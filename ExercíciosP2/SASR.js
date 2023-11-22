@@ -1,7 +1,9 @@
-
+//Função sem argumento e sem retorno
+//Não aceita argumento,conforme indicado pelos parênteses vazios
 function texto() {
+    //imprime a mensagem
     console.log("Tenha um bom dia para todos vocês");
 }
 
-// Chamando a função
+//Chamando a função
 texto();
