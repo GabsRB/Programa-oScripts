@@ -1,0 +1,90 @@
+.body{
+    background-color: #292522;
+    color: #efd9b4;
+}
+
+.title{
+    font-family: minhafonte;
+    color: #d6a692;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family:'minhafonte';
+    src:url("orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+p{
+    font-size: 20px;
+}
+
+.texto-nav{
+    font-family: playfair display;
+    color: #292522;
+}
+
+.header{
+    background-size: cover;
+    background-position: center;
+    padding: auto; 
+    text-align: center;
+    color: #fff; 
+    margin-bottom: 40px;
+    font-family: minhafonte;
+}
+
+
+.header {
+    position: relative;
+    background-image: url('bar2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    margin-top: 50px;
+}
+
+
+/*.container-central {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.container-central h2 {
+    color: #333;
+}
+
+.container-central p {
+    color: #666;
+}
+
+.audio-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+/*#custom-audio{
+    audio::-webkit-media-controls-timeline { display:none;}
+    audio::-webkit-media-controls-panel {background-color: #36312e;}
+}
+*/
+
+
+
