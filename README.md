@@ -1,2 +1,2 @@
-# ProgramacaoScripts
-Arquivos e conteúdos disponibilizados ao longo da aula 
+# Programação de Scripts: 
+Arquivos e conteúdos disponibilizados ao longo da aula do orientador Joel Carlos.
